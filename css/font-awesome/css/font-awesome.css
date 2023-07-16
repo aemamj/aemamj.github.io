@@ -558,6 +558,9 @@
 .fa-bar-chart-o:before {
   content: "\f080";
 }
+.fa-bar-chart:before {
+  content: "\f080";
+}
 .fa-twitter-square:before {
   content: "\f081";
 }
