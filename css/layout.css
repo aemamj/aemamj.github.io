@@ -281,6 +281,90 @@ ul#nav li.current a { color: #F06000; }
    margin-top: 6px;
 }
 
+
+/* ------------------------------------------------------------------ */
+/* d. independent Section
+/* ------------------------------------------------------------------ */
+
+#independent {
+   background: #fff;
+   padding-top: 90px;
+   padding-bottom: 72px;
+   overflow: hidden;
+}
+
+#resume a, #resume a:visited  { color: #11ABB0; }
+#resume a:hover, #resume a:focus { color: #313131; }
+
+#resume h1 {
+   font: 18px/24px 'opensans-bold', sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+}
+#resume h1 span {
+   border-bottom: 3px solid #11ABB0;
+   padding-bottom: 6px;
+}
+#resume h3 {
+   font: 25px/30px 'opensans-bold', sans-serif;
+}
+
+#resume .header-col { padding-top: 9px; }
+#resume .main-col { padding-right: 10%; }
+
+.education, .work {
+   margin-bottom: 48px;
+   padding-bottom: 24px;
+   border-bottom: 1px solid #E8E8E8;
+}
+#resume .info {
+   font: 16px/24px 'librebaskerville-italic', serif;
+   color: #6E7881;
+   margin-bottom: 18px;
+   margin-top: 9px;
+}
+#resume .info span {
+   margin-right: 5px;
+   margin-left: 5px;
+}
+#resume .date {
+   font: 15px/24px 'opensans-regular', sans-serif;
+   margin-top: 6px;
+}
+
+#independent .collapsed h1{
+  color: #95A3A3;
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-family: 'opensans-semibold', sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+
+/* ------------------------------------------------------------------ */
+/* d. independent Section
+/* ------------------------------------------------------------------ */
+
+#news {
+   background: #ebeeee;
+   padding-top: 90px;
+   padding-bottom: 72px;
+   overflow: hidden;
+}
+
+#news .collapsed h1{
+  color: #95A3A3;
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-family: 'opensans-semibold', sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+
+
+
 /*----------------------------------------------*/
 /*	Skill Bars
 /*----------------------------------------------*/
@@ -454,6 +538,23 @@ ul#nav li.current a { color: #F06000; }
    display: block;
    cursor: pointer;
 }
+#itemtext{
+  margin-bottom: 48px;
+  background: #ebeeee;
+  padding-top: 90px;
+  padding-bottom: 60px;
+}
+#itemtext img{
+  max-width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; 
+}
+.itemtext p{
+  padding-top: 90px;
+  padding-bottom: 60px;
+}
+
 
 /* overlay */
 .portfolio-item .item-wrap .overlay {
@@ -522,6 +623,18 @@ ul#nav li.current a { color: #F06000; }
    opacity: 1;
 	-moz-opacity: 1;
 	filter:alpha(opacity=100);
+}
+
+.portfolio-item .discrption{
+   opacity: 0;
+  -moz-opacity: 0;
+  filter:alpha(opacity=0);
+}
+
+.portfolio-item:hover .discrption{
+   opacity: 1;
+  -moz-opacity: 1;
+  filter:alpha(opacity=100);
 }
 
 /* popup modal */
